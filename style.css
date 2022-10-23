@@ -27,10 +27,11 @@ body{
 }
 .parintdiv{
 background-color: var(--White);
-width: 400px;
+max-width: 400px;
 height: auto;
 border-radius: 25px;
 padding: 15px;
+margin: 15px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -39,7 +40,7 @@ box-shadow: #0000000a 20px 17px 20px 4px;
 }
 
 .parintdiv img{
-    width: inherit;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -71,11 +72,6 @@ box-shadow: #0000000a 20px 17px 20px 4px;
 }
 
 @media screen and (max-width : 481px){
-    .parintdiv{
-
-        width: 350px ;
-
-    }
     .textdiv{
         padding: 0 10px ;
         font-size: 13px;
